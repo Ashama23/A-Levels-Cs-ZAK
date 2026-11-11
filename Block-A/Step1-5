@@ -1,1 +1,37 @@
+# Step-1
+name = input("Name: ")
+age = int(input("Age: "))
+print(f"Name: {name}, Age: {age}")
+
+# Step-2
+quantity = int(input("Enter Quantity: "))
+price = float(input("Price: "))
+Total_Price = round(quantity * price,2)
+print("Total cost:",Total_Price)
+
+# Step-3
+Num1 = int(input("Number 1: "))
+Num2 = int(input("Number 2: ")) 
+Qoutient = Num1 // Num2
+Reminder = Num1 % Num2
+print(Qoutient)
+print(Reminder)
+
+# Step-4
+digits = str(input("Enter Digits: "))
+Lenght_Num = len(digits)
+New_Num = int(digits) + 1
+print(Lenght_Num)
+print(New_Num)
+
+# Step-5
+answer = input("On Loan(Y/N)")
+OnLoan = answer == "Y"
+print(OnLoan)
+
+
+
+
+
+
 
